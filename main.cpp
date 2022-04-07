@@ -42,7 +42,8 @@ int main()
 	pqueue.push(SYM{ 'd', 5 });
 	pqueue.push(SYM{ 'e', 8 });
 
-	//pqueue.print();
+	pqueue.print();
+	std::cout << std::endl;
 
 	SYM c1 = pqueue.pop();
 	SYM c2 = pqueue.pop();
